@@ -9,6 +9,7 @@
 int main(void)
 {
 	int n;
+
 	int m;
 
 	srand(time(0));
@@ -22,4 +23,3 @@ int main(void)
 		printf("Last digits of %d is %d and is less than 6 and not 0\n", n, m);
 	return (0);
 }
-
